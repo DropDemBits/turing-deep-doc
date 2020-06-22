@@ -1,0 +1,25 @@
+Need Documentation:
+
+Documentation Notation:
+----------------------
+- Shorthands for types in opcode args
+- Migrate old style opcode arg types to shorthand prefixes
+- Other
+
+Desc:   Needs general description (Description, Exceptions)
+SADesc: Needs stack argument description
+ADesc:  Needs opcode argument description
+
+Stream & IO Ops:
+----------------
+(Desc) TELL - Tell file offset
+(Desc) SEEK - Seek to
+(Desc) SEEKSTAR - Seek to End
+(ADesc) GET
+(SADesc) PUT
+(SADesc) READ
+(SADesc) WRITE
+
+Concurrency & Monitors:
+-----------------------
+(SADesc) FORK

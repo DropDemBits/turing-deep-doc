@@ -1,0 +1,56 @@
+tleabt
+Codes 11 -> 45 = AbtNo 1 -> 35
+  (Excluding 33)
+Codes  50 -> AbtNo 36
+Code   33 -> AbtNo 37
+Codes  51 -> AbtNo 38
+Codes 113 -> AbtNo 39
+Codes  52 -> AbtNo 40
+Codes ALL -> AbtNo 41
+
+Abt: Abort Number, passed to TL_TLE_TLEABT
+QCo: Quit code of the abort code
+eNo: errno passed into TLEABT
+
+ Abt | QCo | eNo | Message
+   1 |  11 |  11 | "Array subscript is out of range"
+   2 |  12 |  12 | "Dynamic array upper bound is less than lower bound"
+   3 |  13 |  13 | "Union field is not in alternative selected by current tag value"
+   4 |  14 |  14 | "Tag value is out of range"
+   5 |  15 |  15 | "Assignment value is out of range"
+   6 |  16 |  16 | "Pre condition is false"
+   7 |  17 |  17 | "Post condition is false"
+   8 |  18 |  18 | "Loop invariant is false"
+   9 |  19 |  19 | "For loop invariant is false"
+  10 |  20 |  20 | "Module invariant is false"
+  11 |  21 |  21 | "Assert condition is false"
+  12 |  22 |  22 | "Value parameter is out of range"
+  13 |  23 |  23 | "Length of string parameter exceeds max length of string formal"
+  14 |  24 |  24 | "Result value is out of range"
+  15 |  25 |  25 | "Case selector is out of range"
+  16 |  26 |  26 | "Function failed to give a result"
+  17 |  27 |  27 | "Collection element has been freed"
+  18 |  28 |  28 | "Collection subscript is nil"
+  19 |  29 |  29 | "Set element is out of range"
+  20 |  30 |  30 | "Subprogram calls nested too deeply. (Probable cause: infinite recursion)"
+  21 |  31 |  31 | "Bound variables overlap"
+  22 |  32 |  32 | "Reference parameters overlap"
+  23 |  33 | --- | "Division (or modulus) by zero"
+  24 |  34 |  34 | "Union tag has not been set"
+  25 |  35 |  35 | "Length of string value exceeds max length of variable"
+  26 |  36 |  36 | "Illegal parameter to \"chr\""
+  27 |  37 |  37 | "Parameter to \"ord\" is not of length one"
+  28 |  38 |  38 | "Pred applied to the first value of the enumeration"
+  29 |  39 |  39 | "Succ applied to the last value of the enumeration"
+  30 |  40 |  40 | "Invalid subscript in charstring([*-]expn)"
+  31 |  41 |  41 | "string or char(n) assigned to char is not length 1"
+  32 |  42 |  42 | "right side of assignment to char(n) is not length \'n\'"
+  33 |  43 |  43 | "char converted to string contains EOS or uninitchar"
+  34 |  44 |  44 | "string or char(n) coerced to char is not length 1"
+  35 |  45 |  45 | "Variable has no value"
+  36 |  50 |  50 | "Overflow in Integer expression"
+  37 |  33 |  33 | "Division (or modulus) by zero in Integer expression"
+  38 |  51 |  51 | "Overflow in Real expression"
+  39 |  33 | 113 | "Division (or modulus) by zero in Real expression"
+  40 |  52 |  40 | "Underflow in Real expression"
+  41 |  61 |  41 | "Internal Turing+ System Error - Unexpected abort"
